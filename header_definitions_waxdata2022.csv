@@ -1,0 +1,38 @@
+Heading,Definition
+sp_com,English (common) name of species 
+sp_sci,Scientific name of species
+food_type,"Type of food an animal eats on that visit: wax = only wax, wax_brood = wax and bee brood, brood = only bee brood, eating_fooduncertain = eating but food type could not be reliably determined, not_eating = not observed eating"
+wax_visible,"Were any pieces of wax visible in the image: binary, 1 = yes, 0 = no"
+wax_amount,"Scoring system to approximate the total amount of wax visible in the image: 1 = less than size of honeyguides head, 2 = size of honeyguides head up to size of honeyguides body, 3 = size of honeyguides body up to two lengths of a honeyguide, 4 = greater than two lengths of a honeyguide"
+age,Age of animal (where it could be determined)
+sex,Sex of animal (where it could be determined)
+lat,Latitude in decimal degrees
+lon,Longitude in decimal degrees
+imageID,Identifier of first image in which animal was observed arriving at wax
+date,Date
+timestart,Local (UTM+2) date-timestamp for when an animal started feeding on wax
+timefinish,Local (UTM+2) date-timestamp for when an animal started feeding on wax
+waxplacement,Local (UTM+2) date-timestamp for when the wax was placed at a bees' nest harvest site
+waxfinished,Local (UTM+2) date-timestamp for when the last piece of wax was depleted at a bees' nest harvest site
+cameratrap,Identifer for make of camera-trap used
+guided,"Were the researchers guided to the harvested bee's nest by a greater honeyguide: binary, Y = yes, N = no"
+time_from_harvesttoplaced,Number of days inbetween the harvest of a bees' nest until placement of wax and camera-trap
+trial,Identifier for each waxsite and all visits therein:'trials'
+timestart_UNIX,UNIX timestamp for when an animal started feeding on wax
+timefinish_UNIX,UNIX timestamp for when an animal started feeding on wax
+waxplacement_UNIX,UNIX timestamp for when the wax was placed at a bees' nest harvest site
+waxfinished_UNIX,UNIX timestamp for when the last piece of wax was depleted at a bees' nest harvest site
+duration,Duration of a single visit (row) in seconds of time
+timeafterplacement,Time in seconds between the start of a visit and when the wax was first made available
+timefromwaxfinish,Time in seconds between the end of a visit and when the wax was fully depleted
+waxduration,Duration in seconds between the placement of a pile of wax and its total depletion
+censored,"Binary value indicating whether or not the final time of wax-depletion was observed (1 = yes, 0 = no)"
+final_animal,"Short-form name of the species which depleted the last piece of wax, NA if unknown or not observed"
+arrival,"Identifier for whether a visit was A = before major wax competitor species, B = after major wax competitor species or C = after all wax was depleted"
+cameratrap_endtimeUNIX,UNIX timestamp for when the camera trap was stopped (or ran out of memory or battery)
+trapduration,Duration in seconds which the camera-trap was recording animal visits at a given site
+interval start,"UNIX start time for arrival observation period (A,B,C)"
+interval finish,"UNIX end time for arrival observation period (A,B,C)"
+trap_duration_days,Duration in days which the camera-trap was recording animal visits at a given site
+offset,"Time in seconds between 'interval start' and 'interval finish' for each observation period (A,B,C)"
+offset_days,"Time in days between 'interval start' and 'interval finish' for each observation period (A,B,C)"
