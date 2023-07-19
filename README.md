@@ -1,5 +1,4 @@
-# honeyguides_and_wax-eaters
-Code and data for the paper: "<b>Honeyguides and other wax-eaters: heterospecific competitors for beeswax stabilise rather than jeopardize a bird-human mutualism</b>" 
+Code and data for the paper: <b>When wax wanes: heterospecific competitors for beeswax stabilize rather than jeopardize a bird-human mutualism</b> 
 
 All R code: <b>Rcode_honeyguides_and_waxeaters.r,</b> <br>
 Data: <b>waxdata2022.csv</b><br>
